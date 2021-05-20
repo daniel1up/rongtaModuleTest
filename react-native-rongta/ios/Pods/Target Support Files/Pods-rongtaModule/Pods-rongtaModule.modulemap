@@ -1,0 +1,6 @@
+module Pods_rongtaModule {
+  umbrella header "Pods-rongtaModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

